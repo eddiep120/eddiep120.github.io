@@ -12,9 +12,9 @@ body, html{
 
 }
 nav {
-position: fixed;
-right: 30px;
-margin: 0;
+	position: fixed;
+	right: 30px;
+	margin: 20px;
 }
 
 a {
@@ -36,9 +36,50 @@ a {
 	box-shadow: 2px 2px  #e7e7e7 inset;
 }
 #main {
+	display: flex;
+	justify-content: center;
 	margin: 0;
 	text-align: center;
 	height: 100%;
 	width: 100%;
 	padding: 100px 0;
+}
+
+.rsvp-form {
+  position: relative;
+	padding-top: 56.25%;
+	height: 100vh;
+	text-align: center;
+}
+.rsvp-form iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+@media (max-width: 600px){
+	.rsvp-form {
+		max-width: 300px;
+		width: 100%;
+	}
+
+	.button {
+		font-size: 12px;
+		padding: 5px 10px;
+		border-radius: 2px;
+		margin: 2px 1px;
+	}
+	nav {
+		position: static;
+		right: 15px;
+		margin: 10px;
+		text-align: center;
+	}
+
+	#main {
+		padding: 0;
+	}
 }
