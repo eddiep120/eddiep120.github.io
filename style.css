@@ -102,4 +102,7 @@ h2{
 		margin: 10px;
 		text-align: right;
 	}
+	#main {
+		padding: 0;
+	}
 }
