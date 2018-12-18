@@ -5,9 +5,7 @@ body, html{
 	height: 100%;
 	width: 100%;
 	font-family: 'Great Vibes', cursive;
-	background-image: url(
-        eddiep120.github.io/edventurecollage.PNG
-      );
+	background-image: url(eddiep120.github.io/edventurecollage.PNG);
 	background-position: center;
 	background-repeat: repeat;
 	background-size: cover;
