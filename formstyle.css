@@ -12,7 +12,7 @@ body, html{
 
 }
 nav {
-	position: fixed;
+	text-align: right;
 	right: 30px;
 	margin: 20px;
 }
@@ -58,23 +58,19 @@ a {
   width: 100%;
   border: 0;
 }
-
-@media (max-width: 600px){
-	.rsvp-form {
-		max-width: 300px;
-		width: 100%;
-	}
-
-	.button {
+@media (max-width: 425px){
+		.button {
 		font-size: 12px;
 		padding: 5px 10px;
 		border-radius: 2px;
 		margin: 2px 1px;
 	}
+	.rsvp-form {
+		max-width: 300px;
+		width: 100%;
+		font-size: 20px;
+	}
 	nav {
-		position: static;
-		right: 15px;
-		margin: 10px;
 		text-align: center;
 	}
 
